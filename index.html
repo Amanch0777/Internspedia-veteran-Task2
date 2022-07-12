@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset=utf-8 /> 
+    <title>Online Digital Clock</title> 
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/alarm.js"></script> 
+	<script type="text/javascript" src="js/script.js"></script> 
+    
+</head> 
+<body> 
+    <div id="digitalClock"> 
+        <canvas id="clockCanvas" width="660" height="260"> 
+            <p>Your browser doesn't support the Canvas Element.</p> 
+        </canvas> 
+        <audio id="alarmBeep">  
+            <source src="audio/beep-6.ogg" />  
+            <source src="audio/beep-6.mp3" /> 
+            <p>Your browser doesn't support Audio.</p>  
+        </audio> 
+        <p> 
+            <a href="#" id="setAlarm" class="button">Set Alarm</a>         
+            <a href="#" id="cancel" class="button">Cancel</a>            
+        </p>        
+    </div> 
+</body> 
+</html>
